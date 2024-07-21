@@ -1,0 +1,227 @@
+.header {
+  width: 100%;
+  height: 736px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-paleturquoise);
+}
+.profile-child {
+  height: 99px;
+  width: 1280px;
+  position: relative;
+  background: linear-gradient(90.17deg, #216270 7.1%, #28b5d4);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.profile,
+.profile1 {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.profile1 {
+  margin: 0;
+  width: 528px;
+  position: relative;
+  font-size: inherit;
+  line-height: 62px;
+  font-weight: 700;
+  font-family: inherit;
+  align-items: center;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  z-index: 1;
+}
+.profile {
+  align-self: stretch;
+  background: linear-gradient(90.17deg, #216270 7.1%, #28b5d4);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-base) var(--padding-xl) var(--padding-mid);
+  mix-blend-mode: normal;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-abhaya-libre);
+}
+.profile-icon {
+  height: 139px;
+  width: 139px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 2;
+}
+.profile-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.address-background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+}
+.account-address-0x295f3804967 {
+  flex: 1;
+  position: relative;
+  line-height: 12.1px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.address-background-parent,
+.frame-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.address-background-parent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 4.2px var(--padding-30xl) 4.7px;
+  position: relative;
+  z-index: 2;
+}
+.frame-parent {
+  width: 540px;
+  flex-direction: column;
+  padding: 0 0 var(--padding-mid);
+  gap: var(--gap-xl);
+}
+.tickets-child {
+  height: 55px;
+  width: 368px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-steelblue);
+  display: none;
+  max-width: 100%;
+}
+.my-tickets {
+  height: 42px;
+  flex: 1;
+  position: relative;
+  font-size: 20px;
+  display: flex;
+  font-family: var(--font-abhaya-libre);
+  color: var(--color-black);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.tickets,
+.tickets-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.tickets {
+  cursor: pointer;
+  border: 0;
+  padding: 5px 30px var(--padding-5xs);
+  background-color: var(--color-steelblue);
+  width: 368px;
+  border-radius: var(--br-xl);
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 2;
+}
+.tickets:hover {
+  background-color: #4da6e6;
+}
+.tickets-wrapper {
+  width: 540px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.content-child {
+  margin-right: -466px;
+  width: 1310px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 156%;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.content,
+.profile-my-tickets {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  padding: 0 370px 0 66px;
+  gap: 34px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: var(--color-black);
+  font-family: var(--font-abhaya-libre);
+}
+.profile-my-tickets {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-powderblue-100);
+  border: 1px solid var(--color-gray);
+  padding: 0 0 51px;
+  gap: 39px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .content {
+    padding-left: 33px;
+    padding-right: 185px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .address-background-parent {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .content {
+    gap: 17px;
+    padding-right: 92px;
+    box-sizing: border-box;
+  }
+  .profile-my-tickets {
+    gap: 19px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .content {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,115 @@
+.frame-child10,
+.metamask-child {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.metamask-child {
+  height: 413px;
+  width: 1382px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #091b2b;
+}
+.frame-child10 {
+  width: 604px;
+  height: 231px;
+  border-radius: var(--corner-large);
+  background: linear-gradient(
+      rgba(184, 184, 184, 0.5),
+      rgba(184, 184, 184, 0.5)
+    ),
+    linear-gradient(
+      270deg,
+      rgba(0, 36, 128, 0.8) 6.1%,
+      rgba(0, 0, 0, 0.16) 81.5%
+    );
+}
+.connect-to-metamask1 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.fox2-1-icon {
+  height: 54px;
+  width: 62px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.fox2-1-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frame-child11 {
+  height: 46.6px;
+  width: 159.6px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.frame-wrapper3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.metamask,
+.rectangle-container {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+}
+.rectangle-container {
+  width: 604px;
+  border-radius: var(--br-base);
+  background: linear-gradient(
+      rgba(184, 184, 184, 0.5),
+      rgba(184, 184, 184, 0.5)
+    ),
+    linear-gradient(
+      270deg,
+      rgba(0, 36, 128, 0.8) 6.1%,
+      rgba(0, 0, 0, 0.16) 81.5%
+    );
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 35px 56px 21.3px;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+}
+.metamask {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(180deg, #2f889b, #46ccd4 74.6%);
+  border: 1px solid var(--color-gray);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: 299px var(--padding-xl) 298px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: #0d212c;
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .connect-to-metamask1 {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .rectangle-container {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .connect-to-metamask1 {
+    font-size: var(--font-size-lg);
+  }
+}

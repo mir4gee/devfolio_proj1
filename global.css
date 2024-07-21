@@ -12,15 +12,21 @@ body {
   --font-itim: Itim;
   --font-italiana: Italiana;
   --font-love-ya-like-a-sister: "Love Ya Like A Sister";
+  --font-inter: Inter;
 
   /* font sizes */
   --font-size-45xl: 64px;
+  --font-size-61xl: 80px;
   --font-size-5xl: 24px;
+  --font-size-21xl: 40px;
   --font-size-mini: 15px;
   --font-size-17xl: 36px;
+  --font-size-11xl: 30px;
+  --font-size-lg: 18px;
 
   /* Colors */
   --color-powderblue-100: #b7e5ef;
+  --color-powderblue-200: #bae0e0;
   --color-gray: rgba(255, 255, 255, 0);
   --color-steelblue: #338ccd;
   --color-black: #000;
@@ -32,8 +38,13 @@ body {
   --color-skyblue-100: #4ebad2;
   --color-white: #fff;
 
+  /* Spacing */
+  --corner-large: 16px;
+
   /* Gaps */
+  --gap-lgi: 19px;
   --gap-xl: 20px;
+  --gap-15xl-5: 34.5px;
   --gap-4xl: 23px;
   --gap-mini: 15px;
   --gap-26xl: 45px;
@@ -47,10 +58,17 @@ body {
   --padding-2xl: 21px;
   --padding-base: 16px;
   --padding-10xs: 3px;
+  --padding-17xl: 36px;
+  --padding-17xl-1: 36.1px;
+  --padding-3xs: 10px;
   --padding-39xl: 58px;
+  --padding-xs-5: 11.5px;
+  --padding-2xs-9: 10.9px;
+  --padding-2xs-6: 10.6px;
   --padding-sm: 14px;
   --padding-15xl: 34px;
   --padding-9xl: 28px;
+  --padding-4xs: 9px;
   --padding-12xs: 1px;
   --padding-3xs-9: 9.9px;
   --padding-mini: 15px;
@@ -65,4 +83,5 @@ body {
   --br-xs: 12px;
   --br-54xl: 73px;
   --br-6xl: 25px;
+  --br-base: 16px;
 }
